@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Servicios contables, tributarios y financieros de alta calidad." />
+  <title>GlobalConta | Expertos en Contabilidad</title>
+  
+  <!-- Fuentes e Iconos -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  
+  <!-- Estilos -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+
+  <!-- Navegación -->
+  <header id="header">
+    <nav class="navbar container">
+      <a href="#" class="logo">Global<span>Conta</span>.</a>
+      <ul class="nav-menu">
+        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+        <li><a href="#contacto" class="btn-primary">Agenda tu Cita</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-content container reveal">
+      <h1>Tu tranquilidad financiera, en <span>manos expertas</span></h1>
+      <p>Brindamos soluciones contables, tributarias y financieras para que tú solo te preocupes por hacer crecer tu negocio. Nos adaptamos a las normativas vigentes.</p>
+      <div class="hero-buttons">
+        <a href="#contacto" class="btn-primary">Consulta Gratuita</a>
+        <a href="#servicios" class="btn-secondary">Ver Servicios</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios Section -->
+  <section id="servicios" class="services section container reveal">
+    <div class="section-title">
+      <h2>Nuestros Servicios</h2>
+      <p>Soluciones integrales diseñadas para empresas y personas naturales.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <i class='bx bx-line-chart'></i>
+        <h3>Asesoría Tributaria</h3>
+        <p>Planificación fiscal, declaraciones juradas, y optimización de impuestos bajo el marco legal vigente.</p>
+      </div>
+      <div class="service-card">
+        <i class='bx bx-building-house'></i>
+        <h3>Outsourcing Contable</h3>
+        <p>Llevamos la contabilidad de tu empresa al día, con reportes mensuales claros y precisos.</p>
+      </div>
+      <div class="service-card">
+        <i class='bx bx-group'></i>
+        <h3>Gestión de Planillas</h3>
+        <p>Cálculo de nóminas, beneficios sociales, AFP, y contratos laborales sin errores.</p>
+      </div>
+      <div class="service-card">
+        <i class='bx bx-check-shield'></i>
+        <h3>Auditoría Financiera</h3>
+        <p>Revisión exhaustiva de tus estados financieros para garantizar transparencia y detectar riesgos.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto Section -->
+  <section id="contacto" class="contact section reveal">
+    <div class="container">
+      <div class="contact-box">
+        <div class="contact-info">
+          <h2>¿Listo para optimizar tus finanzas?</h2>
+          <p>Déjanos tus datos y un especialista se comunicará contigo en menos de 24 horas.</p>
+          <ul class="info-list">
+            <li><i class='bx bx-map'></i> Av. Financiera 123, Centro Empresarial</li>
+            <li><i class='bx bx-envelope'></i> contacto@globalconta.com</li>
+            <li><i class='bx bx-phone'></i> +51 987 654 321</li>
+          </ul>
+        </div>
+        <form class="contact-form" id="contactForm">
+          <div class="input-group">
+            <input type="text" placeholder="Nombre completo" required>
+          </div>
+          <div class="input-group">
+            <input type="email" placeholder="Correo electrónico" required>
+          </div>
+          <div class="input-group">
+            <select required>
+              <option value="" disabled selected>Servicio de interés</option>
+              <option value="tributaria">Asesoría Tributaria</option>
+              <option value="contable">Outsourcing Contable</option>
+              <option value="planillas">Gestión de Planillas</option>
+              <option value="auditoria">Auditoría Financiera</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <button type="submit" class="btn-primary" style="width: 100%;">Enviar Mensaje</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Global<span>Conta</span>.</div>
+        <p>&copy; 2026 GlobalConta. Todos los derechos reservados.</p>
+        <div class="social-links">
+          <a href="#"><i class='bx bxl-linkedin'></i></a>
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
